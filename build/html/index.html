@@ -1,0 +1,82 @@
+<html><head><title>Soluções Urbanas DF</title><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous"><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet"><link href="../css/style.css" rel="stylesheet"><link href="../scss/style.css" rel="stylesheet"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""><script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script><script src="../js/app.min.js"></script></head><body><section class="header-page4" id="header-page4"><div class="overlay"></div><div class="container header4"><div class="header4-content">
+<nav class="navbar navbar-expand-lg row">
+<div class="col-md-4">
+	<a class="navbar-brand" href="#">Elétrica Residencial, Predial e Industrial</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+</div><!-- menu colapsed -->
+<div class="collapse navbar-collapse col-md-8 navbar-detail">
+	<ul class="navbar-nav">
+		<li class="nav-item active">
+			<a class="nav-link" href="#header-page4"><span class="sr-only">(current)</span></a>
+		</li>
+	</ul>
+</div></nav></div><div class="header4-main-content"><div class="header4-title"><h1>Soluções Urbanas</h1><p>Amor aos detalhes que fazem a diferença</p></div></div><div class="header4-detail row text-center"><div class="col-md-4 card-detail"><i class="fas fa-drafting-compass" style="color:black"></i><h4>Análise e Projeto</h4><p>Cada minuto que utilizamos planejando permitirá que economize dinheiro, tempo e energia na consecução dos resultados que almeja.</p></div><div class="col-md-4 card-detail"><i class="fab fa-codepen" style="color:black"></i><h4>Execução</h4><p>Com foco e eficiência implementamos o seu projeto com toda garantia de satisfação.</p></div><div class="col-md-4 card-detail"><i class="fas fa-coffee" style="color:black"></i><h4>Qualidade</h4><p>Com as melhores práticas e normas de qualidade, executamos o serviço com o máximo de desempenho e durabilidade que cada material pode oferecer.</p></div></div></div></section>
+
+<!-- pricing -->
+<!--
+
+<section class="pricing-page1" id="pricing-page1"><div class="overlay"></div><div class="container pricing1-content"><div class="pricing-page1-title text-center"><h1>Instalação</h1><p>Veja os locais monitorados por nós!</p></div><div id="mapid" style="height: 400px;"></div><br><div class="table-responsive"><table class="table table-striped table-sm"><thead><tr><th colspan="4" style="aling-text: center">Empresas Monitoradas</th></tr></thead><tbody><tr><td>Guia do sabor</td><td>Food service</td><td>Nice food</td><td>Companhia do tempero</td></tr><tr><td>Comida à gosto</td><td>Sabor de casa</td><td>Cia dos alimentos</td><td>Hiper sabor</td></tr><tr><td>Super sabor</td><td>Point do sabor</td><td>Mesa redonda</td><td>Praesent</td></tr></tbody></table></div></div>
+</section>
+
+-->
+<!-- contact page -->
+<section class="contact1-us" id="contact1-us">
+	<div class="overlay"></div>
+	<div class="container contact1-content">
+		<div class="row">
+				<div class="get-in">
+					<h2>Contatos</h2>
+					<p>Você precisa de mais informações? <br/>Entre em contato conosco!</p>
+					<div class="find-us">
+							<div class="address">
+								<div class="address-icon">
+									<i class="fas fa-map-marker-alt"></i>
+								</div>
+								<div class="address-detail">
+									<h5>Escritório</h5><address><p>Minichácaras do Lago Sul,<br>Brasília DF</p></address>
+								</div>
+							</div>
+							<div class="address"><div class="address-icon"><i class="fas fa-mobile-alt"></i></div>
+							<div class="address-detail"><h5>Solicite um Orçamento</h5>
+							<p>
+								
+							</p>
+							<p>
+								<a href="https://wa.me/5561981349728" target="_blank" color="green" style="cursor:pointer">
+									<i class="fab fa-whatsapp"></i>
+								</a>
+								<a id="tel" href="tel:+5561981349728" color="white" style="cursor:pointer">+55 61 98134-9728</a>
+								<br>Seg - Sex, 9:00-18:00
+							</p>
+							
+							</div></div>
+					</div>
+				</div>
+				<div class="get-in">
+					
+				</div>
+
+</section>
+
+		<script>var mymap = L.map('mapid').setView([-15.786254, -47.898081], 13);
+
+	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+		maxZoom: 18,
+		attribution: 'Mapeamento Epidemiológico',
+		id: 'mapbox.streets'
+	}).addTo(mymap);
+
+	
+	L.marker([-15.786254, -47.898081]).addTo(mymap);
+	L.marker([-15.801027, -47.938358]).addTo(mymap);
+	
+	
+
+	L.circle([-15.790944, -47.891982], {
+		color: 'red',
+		fillColor: '#f03',
+		fillOpacity: 0.5,
+		radius: 500
+	}).addTo(mymap);</script>
+	</body>
+</html>
